@@ -1,0 +1,36 @@
+<style type="text/css">
+p{
+    margin-top:0;
+    margin-bottom:0;
+}
+ol{
+    margin-top:0;
+    margin-bottom:0;
+}
+ul{
+    margin-top:0;
+    margin-bottom:0;
+}
+li{
+    margin-top:0;
+    margin-bottom:0;
+}
+</style>
+<div id="resume-preview">
+    <div id="divOneWideOne">
+        <table cellpadding="0" cellspacing="0" border="0" class="preview list" style="font-family:arial;" role="presentation">
+            <tr>
+                <td colspan="2" class="content">
+                    <div class="header section">
+                                                                                                                                                                    </div>
+                    <div class="objective section">
+                                            </div>
+                                                                <div class="experience section">
+                                            </div>                                            <div class="education section">
+                                            </div>                                        <div class="additional section">
+                                            </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>
