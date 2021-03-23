@@ -471,7 +471,7 @@ p {
 @media (max-width:990px){
     .header {
         position: relative;
-        height: 100vh;
+        
         width: 100%;
         background: none;
       
@@ -490,6 +490,13 @@ p {
     display: flex;
     height: 150px;
     width: 100%;
+}
+@media (max-width:767px){
+    .caption{
+        display: flex;
+        height: unset;
+        width: 100%;
+    }
 }
 /* .caption {
     position: absolute;
@@ -1371,7 +1378,7 @@ p.success {
     width: 250px;
 }
 @media (max-width:767px) {
-    .header {
+    /* .header {
         position: relative;
         height: 400px;
         width: 100%;
@@ -1379,7 +1386,7 @@ p.success {
         background-attachment: fixed;
         background-size: cover;
         background-repeat: no-repeat;
-    }
+    } */
 }
 .item-info h6{
     font-weight: bold;
@@ -1417,4 +1424,20 @@ p.success {
 }
 .contact .fa{
     color: #295b84;
+}
+@media (min-width:767px){
+    .about-text{
+        width: 600px;
+        word-break: break-all;
+    }
+}
+@media (min-width:991px) and (max-width:1200px){
+    .middil_content_right h2{
+        font-size: 35px;
+    }
+    .about-text{
+        width: 550px !important;
+        word-break: break-all;
+    }
+    
 }

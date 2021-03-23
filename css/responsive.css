@@ -20,7 +20,7 @@
 
 @media (max-width: 767px) {
     .section-padding {
-        padding: 60px 0
+        padding: 100px 0
     }
 
     .all-button {
@@ -133,13 +133,16 @@
     }
 
     .middil_content_right::before {
-        height: 89%;
+        height: 60%;
         width: 4px;
-        bottom: 5px;
+        bottom: 50px;
     }
 
     .middil_content_right {
         padding-left: 10px;
+        position: relative;
+    bottom: 10px;
+
     }
 
     .middil_content_right h2 {
