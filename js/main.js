@@ -54,7 +54,7 @@
 		/*--====== End Progress Bar ======--*/
 
 		/*--====== Text Animation ======--*/
-		$("header .caption span").typed({
+		$("#about .caption span").typed({
 			strings: [" ASP.NET DEVELOPER", "ASP.NET TRAINER", "FULL STACK DEVELOPER"],
 			loop: true,
 			startDelay: 1e3,
